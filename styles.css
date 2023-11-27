@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+.img-main {
+  width: 100%;
+}
+
+
+.profile img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.clickable-square1 {
+  position: absolute;
+  width: 35%;
+  height: 3%;
+  padding-bottom: 20%; /* Set the height relative to the width to create a square */
+}
+.clickable-square2 {
+  position: absolute;
+  width: 15%;
+  padding-bottom: 20%; /* Set the height relative to the width to create a square */
+}
+.clickable-square3 {
+  position: absolute;
+  width: 15%;
+  padding-bottom: 20%; /* Set the height relative to the width to create a square */
+}
+.clickable-square4 {
+  position: absolute;
+  width: 25%;
+  height: 10%;
+  padding-bottom: 20%; /* Set the height relative to the width to create a square */
+}
+.clickable-square5 {
+  position: absolute;
+  width: 25%;
+  height: 10%;
+  padding-bottom: 20%; /* Set the height relative to the width to create a square */
+}
+.clickable-square6 {
+  position: absolute;
+  width: 12%;
+  height: 0%;
+  padding-bottom: 20%; /* Set the height relative to the width to create a square */
+}
+
+/* Additional styling for the squares */
+.clickable-square1:nth-of-type(1) {
+  top: 2.5%;
+  left: 15%;
+  transform: skewY(-30deg);
+}
+
+.clickable-square2:nth-of-type(2) {
+  top: 13%;
+  left: 51%;
+  transform: skewX(30deg);
+}
+
+.clickable-square3:nth-of-type(3) {
+  top: 45%;
+  left: 29%;
+  transform: skewY(-30deg);
+}
+.clickable-square4:nth-of-type(4) {
+  top: 59%;
+  left: 65%;
+  transform: skewX(-20deg);
+}
+.clickable-square5:nth-of-type(5) {
+  top: 68%;
+  left: 20%;
+  transform: skewY(50deg);
+}
+
+.clickable-square6:nth-of-type(6) {
+  top: 40%;
+  left: 15%;
+  transform: skewX(-30deg);
+}
